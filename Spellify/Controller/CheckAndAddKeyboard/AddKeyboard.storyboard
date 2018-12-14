@@ -46,7 +46,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="CLH-Yn-nGO">
-                                <rect key="frame" x="112.5" y="20" width="150" height="90"/>
+                                <rect key="frame" x="112.5" y="41" width="150" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="Adn-Tc-UE8"/>
                                     <constraint firstAttribute="width" constant="150" id="ZN8-gK-HBN"/>
@@ -57,38 +57,38 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To make Spellify one tap away in all your favorite apps, it exists as a keyboard." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Cc-OP-Uzp">
-                                <rect key="frame" x="77" y="155.5" width="221" height="26.5"/>
+                                <rect key="frame" x="77" y="176.5" width="221" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <color key="textColor" red="0.20784313730000001" green="0.2666666667" blue="0.2901960784" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set up Spellify" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9v-Jx-g9z">
-                                <rect key="frame" x="101.5" y="114" width="172" height="33.5"/>
+                                <rect key="frame" x="101.5" y="135" width="172" height="33.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" red="0.20784313730000001" green="0.2666666667" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In the Settings app -&gt; Spellify:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPD-Xt-sqo">
-                                <rect key="frame" x="97.5" y="212" width="220" height="19.5"/>
+                                <rect key="frame" x="97.5" y="233" width="220" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.20784313730000001" green="0.2666666667" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap Keyboards" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEY-at-E8q">
-                                <rect key="frame" x="97.5" y="247.5" width="107.5" height="19.5"/>
+                                <rect key="frame" x="97.5" y="268.5" width="107.5" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.20784313730000001" green="0.2666666667" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings" translatesAutoresizingMaskIntoConstraints="NO" id="ZgT-o7-EBK">
-                                <rect key="frame" x="59.5" y="207" width="30" height="30"/>
+                                <rect key="frame" x="59.5" y="227.5" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Cai-Bq-RyQ"/>
                                     <constraint firstAttribute="height" constant="30" id="PB2-Aw-xB4"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JIO-RN-K7e">
-                                <rect key="frame" x="69.5" y="252.5" width="10" height="10"/>
+                                <rect key="frame" x="69.5" y="273" width="10" height="10"/>
                                 <color key="backgroundColor" red="0.20784313730000001" green="0.2666666667" blue="0.2901960784" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="10" id="JRU-cP-tm4"/>
@@ -101,13 +101,13 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turn on Spellify" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRv-sC-3Xo">
-                                <rect key="frame" x="97.5" y="283" width="112.5" height="19.5"/>
+                                <rect key="frame" x="97.5" y="304" width="112.5" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.20784313730000001" green="0.2666666667" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0PO-DI-69B">
-                                <rect key="frame" x="69.5" y="288" width="10" height="10"/>
+                                <rect key="frame" x="69.5" y="308.5" width="10" height="10"/>
                                 <color key="backgroundColor" red="0.20784313730000001" green="0.2666666667" blue="0.2901960784" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="10" id="Qrh-ER-7qV"/>
@@ -120,13 +120,13 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turn on Allow Full Access" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhE-4W-tci">
-                                <rect key="frame" x="97.5" y="318.5" width="184" height="19.5"/>
+                                <rect key="frame" x="97.5" y="339.5" width="184" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.20784313730000001" green="0.2666666667" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QaS-2k-oyT">
-                                <rect key="frame" x="69.5" y="323.5" width="10" height="10"/>
+                                <rect key="frame" x="69.5" y="344" width="10" height="10"/>
                                 <color key="backgroundColor" red="0.20784313730000001" green="0.2666666667" blue="0.2901960784" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="10" id="P9t-1v-dCu"/>
@@ -139,7 +139,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2T5-2D-7WS">
-                                <rect key="frame" x="97.5" y="346" width="215" height="53"/>
+                                <rect key="frame" x="97.5" y="367" width="215" height="53"/>
                                 <string key="text">Keyboards require full access permission to connect to the Internet. An Internet connection enables Spellify to check your writing.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <color key="textColor" red="0.20784313730000001" green="0.2666666667" blue="0.2901960784" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -154,13 +154,14 @@
                             <constraint firstItem="FBL-ba-G8G" firstAttribute="centerX" secondItem="E04-tT-CmW" secondAttribute="centerX" id="ARm-H2-bxX"/>
                             <constraint firstItem="JIO-RN-K7e" firstAttribute="centerY" secondItem="aEY-at-E8q" secondAttribute="centerY" id="Bmj-A0-id5"/>
                             <constraint firstItem="rRv-sC-3Xo" firstAttribute="leading" secondItem="CPD-Xt-sqo" secondAttribute="leading" id="CDH-Eb-1pi"/>
-                            <constraint firstItem="CLH-Yn-nGO" firstAttribute="top" secondItem="E04-tT-CmW" secondAttribute="top" constant="20" id="GTC-Wg-35H"/>
+                            <constraint firstItem="CLH-Yn-nGO" firstAttribute="top" secondItem="E04-tT-CmW" secondAttribute="top" priority="250" constant="20" id="GTC-Wg-35H"/>
                             <constraint firstItem="bhE-4W-tci" firstAttribute="top" secondItem="rRv-sC-3Xo" secondAttribute="bottom" constant="16" id="IDy-ke-xwB"/>
                             <constraint firstItem="nEf-31-5Pj" firstAttribute="bottom" secondItem="FBL-ba-G8G" secondAttribute="bottom" constant="100" id="JHf-hx-NAD"/>
                             <constraint firstItem="CLH-Yn-nGO" firstAttribute="centerX" secondItem="E04-tT-CmW" secondAttribute="centerX" id="KDo-FY-tzU"/>
                             <constraint firstItem="2T5-2D-7WS" firstAttribute="leading" secondItem="CPD-Xt-sqo" secondAttribute="leading" id="NHH-eS-IaG"/>
                             <constraint firstItem="CPD-Xt-sqo" firstAttribute="top" secondItem="1Cc-OP-Uzp" secondAttribute="bottom" constant="30" id="OzM-Xk-ORc"/>
                             <constraint firstItem="QaS-2k-oyT" firstAttribute="centerX" secondItem="ZgT-o7-EBK" secondAttribute="centerX" id="PgG-ht-ny3"/>
+                            <constraint firstItem="rRv-sC-3Xo" firstAttribute="centerY" secondItem="E04-tT-CmW" secondAttribute="centerY" constant="-20" id="QiH-4r-P10"/>
                             <constraint firstItem="1Cc-OP-Uzp" firstAttribute="centerX" secondItem="E04-tT-CmW" secondAttribute="centerX" id="RWI-Vg-c1F"/>
                             <constraint firstItem="QaS-2k-oyT" firstAttribute="centerY" secondItem="bhE-4W-tci" secondAttribute="centerY" id="S4a-Y3-FgY"/>
                             <constraint firstItem="aEY-at-E8q" firstAttribute="leading" secondItem="CPD-Xt-sqo" secondAttribute="leading" id="Tgl-Se-duT"/>

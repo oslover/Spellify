@@ -12,6 +12,9 @@ class MainViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let imageView = UIImageView(image: UIImage(named: "logo_small"))
+        imageView.contentMode = .scaleAspectFit
+        self.navigationItem.titleView = imageView
     }
 }

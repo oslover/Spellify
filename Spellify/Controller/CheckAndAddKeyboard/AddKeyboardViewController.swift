@@ -15,6 +15,6 @@ class AddKeyboardViewController: BaseViewController {
     }
     
     @IBAction func onAddGrammarlyKeyboard(_ sender: Any) {
-        
+        UIManager.shared.showMain(animated: true)
     }
 }
