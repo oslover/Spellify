@@ -11,7 +11,6 @@
 		9AA99AD821C380D100CC3E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA99AD621C380D100CC3E0C /* Main.storyboard */; };
 		9AA99ADA21C380D200CC3E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA99AD921C380D200CC3E0C /* Assets.xcassets */; };
 		9AA99ADD21C380D200CC3E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA99ADB21C380D200CC3E0C /* LaunchScreen.storyboard */; };
-		9AA99AE821C382C500CC3E0C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99AE721C382C500CC3E0C /* WelcomeViewController.swift */; };
 		9AA99AEA21C382D500CC3E0C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99AE921C382D500CC3E0C /* BaseViewController.swift */; };
 		9AA99AED21C382EF00CC3E0C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99AEC21C382EF00CC3E0C /* LoginViewController.swift */; };
 		9AA99AEF21C382FA00CC3E0C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99AEE21C382FA00CC3E0C /* SignUpViewController.swift */; };
@@ -23,6 +22,11 @@
 		9AA99AFE21C3839100CC3E0C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99AFD21C3839100CC3E0C /* AboutViewController.swift */; };
 		9AA99B0021C383BC00CC3E0C /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA99AFF21C383BC00CC3E0C /* Welcome.storyboard */; };
 		9AA99B0221C383C900CC3E0C /* AddKeyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA99B0121C383C900CC3E0C /* AddKeyboard.storyboard */; };
+		9AA99B0421C3884600CC3E0C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99B0321C3884600CC3E0C /* MenuViewController.swift */; };
+		9AA99B0621C38C2200CC3E0C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99B0521C38C2200CC3E0C /* Extension.swift */; };
+		9AA99B0821C3943D00CC3E0C /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99B0721C3943D00CC3E0C /* AppManager.swift */; };
+		9AA99B0A21C39A8400CC3E0C /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99B0921C39A8400CC3E0C /* UIManager.swift */; };
+		9AA99B0C21C39CE800CC3E0C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99B0B21C39CE800CC3E0C /* Colors.swift */; };
 		F76F2F2ED62D69BD278CFA4C /* Pods_Spellify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F650C4B12D37B81E56C70145 /* Pods_Spellify.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +39,6 @@
 		9AA99AD921C380D200CC3E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AA99ADC21C380D200CC3E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AA99ADE21C380D200CC3E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AA99AE721C382C500CC3E0C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		9AA99AE921C382D500CC3E0C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9AA99AEC21C382EF00CC3E0C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9AA99AEE21C382FA00CC3E0C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		9AA99AFD21C3839100CC3E0C /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		9AA99AFF21C383BC00CC3E0C /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
 		9AA99B0121C383C900CC3E0C /* AddKeyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddKeyboard.storyboard; sourceTree = "<group>"; };
+		9AA99B0321C3884600CC3E0C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		9AA99B0521C38C2200CC3E0C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9AA99B0721C3943D00CC3E0C /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		9AA99B0921C39A8400CC3E0C /* UIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
+		9AA99B0B21C39CE800CC3E0C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		F650C4B12D37B81E56C70145 /* Pods_Spellify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spellify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,6 +122,9 @@
 		9AA99AE421C3828900CC3E0C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9AA99B0721C3943D00CC3E0C /* AppManager.swift */,
+				9AA99B0921C39A8400CC3E0C /* UIManager.swift */,
+				9AA99B0B21C39CE800CC3E0C /* Colors.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -132,6 +143,7 @@
 		9AA99AE621C3829400CC3E0C /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				9AA99B0521C38C2200CC3E0C /* Extension.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -139,9 +151,9 @@
 		9AA99AEB21C382E300CC3E0C /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				9AA99AE721C382C500CC3E0C /* WelcomeViewController.swift */,
 				9AA99AEC21C382EF00CC3E0C /* LoginViewController.swift */,
 				9AA99AEE21C382FA00CC3E0C /* SignUpViewController.swift */,
+				9AA99B0321C3884600CC3E0C /* MenuViewController.swift */,
 				9AA99AFF21C383BC00CC3E0C /* Welcome.storyboard */,
 			);
 			path = Login;
@@ -292,13 +304,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AA99AF621C3836E00CC3E0C /* MainViewController.swift in Sources */,
+				9AA99B0C21C39CE800CC3E0C /* Colors.swift in Sources */,
 				9AA99AED21C382EF00CC3E0C /* LoginViewController.swift in Sources */,
 				9AA99AFE21C3839100CC3E0C /* AboutViewController.swift in Sources */,
 				9AA99AF821C3837B00CC3E0C /* AccountViewController.swift in Sources */,
 				9AA99AD321C380D100CC3E0C /* AppDelegate.swift in Sources */,
-				9AA99AE821C382C500CC3E0C /* WelcomeViewController.swift in Sources */,
 				9AA99AF321C3833000CC3E0C /* AddKeyboardViewController.swift in Sources */,
+				9AA99B0821C3943D00CC3E0C /* AppManager.swift in Sources */,
+				9AA99B0A21C39A8400CC3E0C /* UIManager.swift in Sources */,
+				9AA99B0421C3884600CC3E0C /* MenuViewController.swift in Sources */,
 				9AA99AEA21C382D500CC3E0C /* BaseViewController.swift in Sources */,
+				9AA99B0621C38C2200CC3E0C /* Extension.swift in Sources */,
 				9AA99AFA21C3838400CC3E0C /* FeedbackViewController.swift in Sources */,
 				9AA99AFC21C3838A00CC3E0C /* SupportViewController.swift in Sources */,
 				9AA99AEF21C382FA00CC3E0C /* SignUpViewController.swift in Sources */,

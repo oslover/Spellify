@@ -13,4 +13,8 @@ class AddKeyboardViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBAction func onAddGrammarlyKeyboard(_ sender: Any) {
+        
+    }
 }

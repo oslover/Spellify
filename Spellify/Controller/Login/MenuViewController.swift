@@ -1,5 +1,5 @@
 //
-//  WelcomeViewController.swift
+//  MenuViewController.swift
 //  Spellify
 //
 //  Created by Macmini on 12/13/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WelcomeViewController: BaseViewController {
+class MenuViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
