@@ -1,7 +1,75 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="312-x3-J4i">
+            <objects>
+                <viewController id="6pr-Ul-cJo" customClass="WelcomeViewController" customModule="Spellify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4X9-ns-8GH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="w5f-W9-jit">
+                                <rect key="frame" x="87.5" y="101" width="200" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="AH8-pE-QY6"/>
+                                    <constraint firstAttribute="width" constant="200" id="Sjf-fp-Lx0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mistake-free writing  in all your apps" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9U-av-TRM">
+                                <rect key="frame" x="95.5" y="279.5" width="184.5" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <color key="textColor" red="0.20784313730000001" green="0.2666666667" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THE SPELLIFY KEYBOARD" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMZ-Jo-cI0">
+                                <rect key="frame" x="95.5" y="261" width="154" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                <color key="textColor" red="0.47450980390000003" green="0.73333333329999995" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHP-Qr-7ks">
+                                <rect key="frame" x="40" y="523" width="295" height="44"/>
+                                <color key="backgroundColor" red="0.20784313730000001" green="0.2666666667" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="5BZ-e1-f4n"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Get Started">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="t9U-av-TRM" firstAttribute="centerY" secondItem="4X9-ns-8GH" secondAttribute="centerY" constant="-30" id="7Z1-qF-ifi"/>
+                            <constraint firstItem="DMZ-Jo-cI0" firstAttribute="top" secondItem="w5f-W9-jit" secondAttribute="bottom" constant="40" id="7yS-jS-IwF"/>
+                            <constraint firstItem="z31-jC-1Dm" firstAttribute="bottom" secondItem="IHP-Qr-7ks" secondAttribute="bottom" constant="100" id="A3f-Yv-5Pr"/>
+                            <constraint firstItem="w5f-W9-jit" firstAttribute="centerX" secondItem="4X9-ns-8GH" secondAttribute="centerX" id="Dt4-y6-YGG"/>
+                            <constraint firstItem="t9U-av-TRM" firstAttribute="centerX" secondItem="4X9-ns-8GH" secondAttribute="centerX" id="ZHm-gV-10M"/>
+                            <constraint firstItem="DMZ-Jo-cI0" firstAttribute="leading" secondItem="t9U-av-TRM" secondAttribute="leading" id="bsU-Wj-akX"/>
+                            <constraint firstItem="IHP-Qr-7ks" firstAttribute="leading" secondItem="z31-jC-1Dm" secondAttribute="leading" constant="40" id="hAd-iW-lii"/>
+                            <constraint firstItem="z31-jC-1Dm" firstAttribute="trailing" secondItem="IHP-Qr-7ks" secondAttribute="trailing" constant="40" id="i4e-8Z-j6G"/>
+                            <constraint firstItem="t9U-av-TRM" firstAttribute="top" secondItem="DMZ-Jo-cI0" secondAttribute="bottom" constant="4" id="vLJ-Ug-EMg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="z31-jC-1Dm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pUo-pQ-xo1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-431.19999999999999" y="-617.54122938530736"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="250.5" height="150.5"/>
+    </resources>
 </document>

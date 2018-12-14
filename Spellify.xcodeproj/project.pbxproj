@@ -21,9 +21,14 @@
 		9AA99AFA21C3838400CC3E0C /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99AF921C3838400CC3E0C /* FeedbackViewController.swift */; };
 		9AA99AFC21C3838A00CC3E0C /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99AFB21C3838A00CC3E0C /* SupportViewController.swift */; };
 		9AA99AFE21C3839100CC3E0C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA99AFD21C3839100CC3E0C /* AboutViewController.swift */; };
+		9AA99B0021C383BC00CC3E0C /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA99AFF21C383BC00CC3E0C /* Welcome.storyboard */; };
+		9AA99B0221C383C900CC3E0C /* AddKeyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA99B0121C383C900CC3E0C /* AddKeyboard.storyboard */; };
+		F76F2F2ED62D69BD278CFA4C /* Pods_Spellify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F650C4B12D37B81E56C70145 /* Pods_Spellify.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A0427A8000A0CC06FAEC22D /* Pods-Spellify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spellify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spellify/Pods-Spellify.release.xcconfig"; sourceTree = "<group>"; };
+		388E3FE98FFD03E974CA7521 /* Pods-Spellify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spellify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spellify/Pods-Spellify.debug.xcconfig"; sourceTree = "<group>"; };
 		9AA99ACF21C380D100CC3E0C /* Spellify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spellify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA99AD221C380D100CC3E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AA99AD721C380D100CC3E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +45,9 @@
 		9AA99AF921C3838400CC3E0C /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
 		9AA99AFB21C3838A00CC3E0C /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
 		9AA99AFD21C3839100CC3E0C /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		9AA99AFF21C383BC00CC3E0C /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		9AA99B0121C383C900CC3E0C /* AddKeyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddKeyboard.storyboard; sourceTree = "<group>"; };
+		F650C4B12D37B81E56C70145 /* Pods_Spellify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spellify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76F2F2ED62D69BD278CFA4C /* Pods_Spellify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F97E282543FE0FDC4117D30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				388E3FE98FFD03E974CA7521 /* Pods-Spellify.debug.xcconfig */,
+				2A0427A8000A0CC06FAEC22D /* Pods-Spellify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		567F40C3B0AD6575AAB11143 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F650C4B12D37B81E56C70145 /* Pods_Spellify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9AA99AC621C380D000CC3E0C = {
 			isa = PBXGroup;
 			children = (
 				9AA99AD121C380D100CC3E0C /* Spellify */,
 				9AA99AD021C380D100CC3E0C /* Products */,
+				1F97E282543FE0FDC4117D30 /* Pods */,
+				567F40C3B0AD6575AAB11143 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,7 +104,6 @@
 				9AA99AE421C3828900CC3E0C /* Model */,
 				9AA99AE521C3828E00CC3E0C /* Controller */,
 				9AA99AD221C380D100CC3E0C /* AppDelegate.swift */,
-				9AA99AD621C380D100CC3E0C /* Main.storyboard */,
 				9AA99AD921C380D200CC3E0C /* Assets.xcassets */,
 				9AA99ADB21C380D200CC3E0C /* LaunchScreen.storyboard */,
 				9AA99ADE21C380D200CC3E0C /* Info.plist */,
@@ -115,6 +142,7 @@
 				9AA99AE721C382C500CC3E0C /* WelcomeViewController.swift */,
 				9AA99AEC21C382EF00CC3E0C /* LoginViewController.swift */,
 				9AA99AEE21C382FA00CC3E0C /* SignUpViewController.swift */,
+				9AA99AFF21C383BC00CC3E0C /* Welcome.storyboard */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -131,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				9AA99AF221C3833000CC3E0C /* AddKeyboardViewController.swift */,
+				9AA99B0121C383C900CC3E0C /* AddKeyboard.storyboard */,
 			);
 			path = CheckAndAddKeyboard;
 			sourceTree = "<group>";
@@ -138,6 +167,7 @@
 		9AA99AF421C3835A00CC3E0C /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9AA99AD621C380D100CC3E0C /* Main.storyboard */,
 				9AA99AF521C3836E00CC3E0C /* MainViewController.swift */,
 				9AA99AF721C3837B00CC3E0C /* AccountViewController.swift */,
 				9AA99AF921C3838400CC3E0C /* FeedbackViewController.swift */,
@@ -154,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AA99AE121C380D200CC3E0C /* Build configuration list for PBXNativeTarget "Spellify" */;
 			buildPhases = (
+				332570EC5BC5E0A004831BAF /* [CP] Check Pods Manifest.lock */,
 				9AA99ACB21C380D000CC3E0C /* Sources */,
 				9AA99ACC21C380D000CC3E0C /* Frameworks */,
 				9AA99ACD21C380D000CC3E0C /* Resources */,
+				62F32E573ABCF32983171799 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,12 +238,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AA99ADD21C380D200CC3E0C /* LaunchScreen.storyboard in Resources */,
+				9AA99B0221C383C900CC3E0C /* AddKeyboard.storyboard in Resources */,
+				9AA99B0021C383BC00CC3E0C /* Welcome.storyboard in Resources */,
 				9AA99ADA21C380D200CC3E0C /* Assets.xcassets in Resources */,
 				9AA99AD821C380D100CC3E0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		332570EC5BC5E0A004831BAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spellify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62F32E573ABCF32983171799 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Spellify/Pods-Spellify-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spellify/Pods-Spellify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9AA99ACB21C380D000CC3E0C /* Sources */ = {
@@ -372,6 +445,7 @@
 		};
 		9AA99AE221C380D200CC3E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 388E3FE98FFD03E974CA7521 /* Pods-Spellify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -389,6 +463,7 @@
 		};
 		9AA99AE321C380D200CC3E0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A0427A8000A0CC06FAEC22D /* Pods-Spellify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
